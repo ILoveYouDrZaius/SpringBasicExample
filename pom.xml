@@ -35,6 +35,6 @@
     <finalName>springapp</finalName>
   </build>
   <properties>
-  	<org.springframework.version>4.3.1</org.springframework.version>
+  	<org.springframework.version>1.2.6</org.springframework.version>
   </properties>
 </project>
