@@ -15,6 +15,11 @@
       <scope>test</scope>
     </dependency>
     <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+        <version>${org.springframework.version}</version>
+	</dependency>
+    <dependency>
     	<groupId>org.springframework</groupId>
     	<artifactId>spring-core</artifactId>
     	<version>${org.springframework.version}</version>
@@ -35,6 +40,6 @@
     <finalName>springapp</finalName>
   </build>
   <properties>
-  	<org.springframework.version>1.2.6</org.springframework.version>
+  	<org.springframework.version>4.3.1.RELEASE</org.springframework.version>
   </properties>
 </project>
