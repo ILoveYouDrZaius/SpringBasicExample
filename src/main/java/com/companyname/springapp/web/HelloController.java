@@ -1,7 +1,6 @@
 package com.companyname.springapp.web;
 
 import java.io.IOException;
-
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -14,6 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class HelloController {
+
     protected final Log logger = LogFactory.getLog(getClass());
 
     @RequestMapping(value="/hello.htm")
